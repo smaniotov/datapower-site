@@ -1,0 +1,27 @@
+{
+  "name": "datapower-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "8.0.53",
+    "@types/react": "16.0.25",
+    "@types/react-dom": "16.0.3",
+    "awesome-typescript-loader": "3.4.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "source-map-loader": "0.2.3",
+    "tslint": "5.8.0",
+    "typescript": "2.6.2"
+  },
+  "dependencies": {
+    "webpack": "3.9.1",
+    "webpack-dev-server": "2.9.5"
+  }
+}
